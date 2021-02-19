@@ -24,7 +24,7 @@
   .mobile-header #myLinks {
     overflow: hidden;
     display: none;
-    height: 620px;
+    height: 100vh;
     background-color: #2b272f;
     margin-top: 20px;
     padding-top: 35px;
