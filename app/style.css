@@ -6,6 +6,12 @@
 }
 
 @media (max-width: 480px) {
+  .attribution {
+    display: none;
+  }
+  body {
+    height: 400vh;
+  }
   .mobile-header {
     height: auto;
     padding-top: 27px;
@@ -13,7 +19,7 @@
     position: relative;
   }
   .mobile-header .logo {
-    width: 30%;
+    width: 35%;
     margin-left: 40px;
   }
   .mobile-header .hamburger {
@@ -74,28 +80,92 @@
   .mobile-content .top-content {
     background-color: #2d2640;
     margin-top: -4px;
-    height: 70vh;
+    height: 90vh;
     position: relative;
     z-index: 0;
   }
-  .mobile-content h1 {
+  .mobile-content .top-content h1 {
     font-size: 40px;
     text-align: center;
-    padding-top: 35%;
+    padding-top: 30%;
     position: relative;
     line-height: 88%;
     color: #ffffff;
     z-index: 1;
   }
-  .mobile-content .top-pattern {
+  .mobile-content .top-content .text {
+    margin-top: 7%;
+    font-size: 18px;
+    padding-right: 8%;
+    width: auto;
+    text-align: center;
+    padding-left: 8%;
+    color: #fafafa;
+    font-family: 'Karla', sans-serif;
+  }
+  .mobile-content .top-content .button {
+    color: #fafafa;
+    margin-right: 80px;
+    margin-left: 80px;
+    width: auto;
+    font-family: 'Karla', sans-serif;
+    text-align: center;
+    border: 2px solid #fafafa;
+    margin-top: 35px;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    position: relative;
+    z-index: 1;
+  }
+  .mobile-content .top-content .top-pattern {
     position: absolute;
     z-index: 0;
     top: 0;
   }
-  .mobile-content .bottom-pattern {
+  .mobile-content .top-content .bottom-pattern {
     right: 0;
-    bottom: 0;
+    bottom: -35%;
     position: absolute;
+  }
+  .mobile-content .mid-content .text {
+    font-size: 45px;
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+    margin-top: 5%;
+    font-weight: 500;
+    margin-bottom: 15%;
+  }
+  .mobile-content .mid-content .border {
+    margin-right: 25%;
+    margin-left: 25%;
+    width: auto;
+    border-top: 1px solid #837d87;
+    margin-top: 40%;
+  }
+  .mobile-content .mid-content .icon-container-mobile {
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: center;
+  }
+  .mobile-content .mid-content .icon-container-mobile .icon1 {
+    margin-bottom: 20%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .mobile-content .mid-content .icon-container-mobile .icon1 .text-head {
+    margin-top: 10%;
+    margin-bottom: 5%;
+  }
+  .mobile-content .mid-content .icon-container-mobile .icon1 .text-icon {
+    font-family: 'Karla', sans-serif;
+    line-height: 175%;
+  }
+  .working {
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    color: #2b272f;
   }
 }
 /*# sourceMappingURL=style.css.map */

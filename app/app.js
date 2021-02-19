@@ -1,3 +1,4 @@
+alert('Maaf kalau masih kurang rapih, masih belajar hehe :)');
 function myFunction() {
   var x = document.getElementById("myLinks");
   var y = document.getElementById("mobile-img");

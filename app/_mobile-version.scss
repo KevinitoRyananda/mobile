@@ -1,11 +1,13 @@
 @media(max-width: 480px){
+    .attribution{display: none;}
+    body{height: 400vh;}
     .mobile-header{
         height: auto;
         padding-top: 27px;
         padding-bottom: 27px;
         position: relative;
         .logo{
-            width: 30%;
+            width: 35%;
             margin-left: 40px;
         }
         .hamburger{
@@ -58,28 +60,94 @@
         .top-content{
             background-color: $darkviolet;
             margin-top: -4px;
-            height: 70vh;
+            height: 90vh;
             position: relative;
             z-index: 0;
+            h1 {
+                font-size: 40px;
+                text-align: center;
+                padding-top: 30%;
+                position: relative;
+                line-height: 88%;
+                color: #ffffff;
+                z-index: 1;
+            }
+            .text{
+                margin-top: 7%;
+                font-size: 18px;
+                padding-right: 8%;
+                width: auto;
+                text-align: center;
+                padding-left: 8%;
+                color: $verylightgrey;
+                font-family: 'Karla', sans-serif;
+            }
+            .button{ // View Plans Button.
+                color: $verylightgrey;
+                margin-right: 80px;
+                margin-left: 80px;
+                width: auto;
+                font-family: 'Karla', sans-serif;
+                text-align: center;
+                border: 2px solid $verylightgrey;
+                margin-top: 35px;
+                height: auto;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                font-size: 20px;
+                position: relative;
+                z-index: 1;
+            }
+            .top-pattern{
+                position: absolute;
+                z-index: 0;
+                top: 0;
+            }
+            .bottom-pattern{
+                right: 0;
+                bottom: -35%;
+                position: absolute;
+            }
         }
-        h1 {
-            font-size: 40px;
-            text-align: center;
-            padding-top: 35%;
-            position: relative;
-            line-height: 88%;
-            color: #ffffff;
-            z-index: 1;
+        .mid-content{
+            .text{
+                font-size: 45px;
+                font-family: 'DM Serif Display', serif;
+                text-align: center;
+                margin-top: 5%;
+                font-weight: 500;
+                margin-bottom: 15%;
+            }
+            .border{
+                margin-right: 25%;
+                margin-left: 25%;
+                width: auto;
+                border-top: 1px solid $darkgrayishviolet;
+                margin-top: 40%;
+            }
+            .icon-container-mobile{
+                margin-right: 20px;
+                margin-left: 20px;
+                text-align: center;
+                .icon1{
+                    margin-bottom: 20%;
+                    margin-left: 2%;
+                    margin-right: 2%;
+                    .text-head{
+                        margin-top: 10%;
+                        margin-bottom: 5%;
+                    }
+                    .text-icon{
+                        font-family: 'Karla', sans-serif;
+                        line-height: 175%;
+                    }
+                }
+            }
         }
-        .top-pattern{
-            position: absolute;
-            z-index: 0;
-            top: 0;
-        }
-        .bottom-pattern{
-            right: 0;
-            bottom: 0;
-            position: absolute;
-        }
+    }
+    .working{
+        text-align: center;
+        font-family: 'Karla', sans-serif;
+        color: $verydarkviolet;
     }
 }
