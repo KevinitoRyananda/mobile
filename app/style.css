@@ -6,9 +6,6 @@
 }
 
 @media (max-width: 480px) {
-  .attribution {
-    display: none;
-  }
   body {
     height: 400vh;
   }
@@ -90,7 +87,7 @@
     text-align: center;
     padding-top: 30%;
     position: relative;
-    line-height: 88%;
+    line-height: 130%;
     color: #ffffff;
     z-index: 1;
   }
