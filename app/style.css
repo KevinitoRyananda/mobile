@@ -83,7 +83,7 @@
     height: 90vh;
     position: relative;
     z-index: 0;
-    line-height: 150%;
+    line-height: 185%;
   }
   .mobile-content .top-content h1 {
     font-size: 40px;
@@ -103,7 +103,6 @@
     padding-left: 8%;
     color: #fafafa;
     font-family: 'Karla', sans-serif;
-    line-heigth: 150%;
   }
   .mobile-content .top-content .button {
     color: #fafafa;
