@@ -24,9 +24,9 @@
   .mobile-header #myLinks {
     overflow: hidden;
     display: none;
-    height: 100vh;
+    height: 620px;
     background-color: #2b272f;
-    margin-top: 20px;
+    margin-top: 27px;
     padding-top: 35px;
     position: relative;
   }
@@ -34,7 +34,6 @@
     position: absolute;
     right: 0;
     bottom: 0;
-    width: 100%;
   }
   .mobile-header #myLinks a {
     color: #ffffff;
@@ -64,6 +63,27 @@
     height: auto;
     margin-left: 30px;
     padding-bottom: 15px;
+  }
+  .mobile-content {
+    position: relative;
+  }
+  .mobile-content #mobile-img {
+    width: 100%;
+  }
+  .mobile-content .top-content {
+    background-color: #2d2640;
+    margin-top: -4px;
+    height: 70vh;
+    position: relative;
+  }
+  .mobile-content .top-pattern {
+    position: absolute;
+    top: 0;
+  }
+  .mobile-content .bottom-pattern {
+    right: 0;
+    bottom: 0;
+    position: absolute;
   }
 }
 /*# sourceMappingURL=style.css.map */
