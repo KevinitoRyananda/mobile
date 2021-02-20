@@ -9,7 +9,25 @@
   body {
     height: 400vh;
   }
+  .button {
+    color: #fafafa;
+    margin-right: 80px;
+    margin-left: 80px;
+    width: auto;
+    font-family: 'Karla', sans-serif;
+    text-align: center;
+    border: 2px solid #fafafa;
+    margin-top: 35px;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    position: relative;
+    z-index: 1;
+  }
   .mobile-header {
+    position: -webkit-sticky;
+    position: sticky;
     height: auto;
     padding-top: 27px;
     padding-bottom: 27px;
@@ -100,22 +118,7 @@
     padding-left: 8%;
     color: #fafafa;
     font-family: 'Karla', sans-serif;
-  }
-  .mobile-content .top-content .button {
-    color: #fafafa;
-    margin-right: 80px;
-    margin-left: 80px;
-    width: auto;
-    font-family: 'Karla', sans-serif;
-    text-align: center;
-    border: 2px solid #fafafa;
-    margin-top: 35px;
-    height: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 20px;
-    position: relative;
-    z-index: 1;
+    margin-bottom: 15%;
   }
   .mobile-content .top-content .top-pattern {
     position: absolute;
@@ -159,6 +162,70 @@
   .mobile-content .mid-content .icon-container-mobile .icon1 .text-icon {
     font-family: 'Karla', sans-serif;
     line-height: 175%;
+  }
+  .mobile-content .bottom-content {
+    width: 100%;
+    padding-top: 15%;
+    padding-bottom: 20%;
+    background-color: #2d2640;
+    height: auto;
+    position: relative;
+  }
+  .mobile-content .bottom-content h1 {
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 37px;
+    font-weight: 400;
+    font-family: 'DM Serif Display', serif;
+    color: #ffffff;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+    font-size: 40px;
+    line-height: 97%;
+  }
+  .mobile-content .bottom-content .top-pattern {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .footer {
+    width: 100%;
+    height: 30vh;
+    background-color: #fafafa;
+    position: relative;
+  }
+  .footer .pattern {
+    width: 100%;
+    position: absolute;
+    top: 0;
+  }
+  .footer .img-footer {
+    top: 95px;
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+  }
+  .footer .img-social-container {
+    width: 100%;
+    position: absolute;
+    padding-top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 2%;
+  }
+  .footer .img-social-container img {
+    padding-right: 2%;
+    padding-left: 2%;
   }
   .working {
     text-align: center;

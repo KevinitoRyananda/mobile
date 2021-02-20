@@ -1,7 +1,24 @@
 @media(max-width: 480px){
     
     body{height: 400vh;}
+    .button{ // View Plans Button.
+        color: $verylightgrey;
+        margin-right: 80px;
+        margin-left: 80px;
+        width: auto;
+        font-family: 'Karla', sans-serif;
+        text-align: center;
+        border: 2px solid $verylightgrey;
+        margin-top: 35px;
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 20px;
+        position: relative;
+        z-index: 1;
+    }
     .mobile-header{
+        position: sticky;
         height: auto;
         padding-top: 27px;
         padding-bottom: 27px;
@@ -83,23 +100,9 @@
                 padding-left: 8%;
                 color: $verylightgrey;
                 font-family: 'Karla', sans-serif;
+                margin-bottom: 15%;
             }
-            .button{ // View Plans Button.
-                color: $verylightgrey;
-                margin-right: 80px;
-                margin-left: 80px;
-                width: auto;
-                font-family: 'Karla', sans-serif;
-                text-align: center;
-                border: 2px solid $verylightgrey;
-                margin-top: 35px;
-                height: auto;
-                padding-top: 10px;
-                padding-bottom: 10px;
-                font-size: 20px;
-                position: relative;
-                z-index: 1;
-            }
+            
             .top-pattern{
                 position: absolute;
                 z-index: 0;
@@ -144,6 +147,62 @@
                         line-height: 175%;
                     }
                 }
+            }
+        }
+        .bottom-content{
+            width: 100%;
+            padding-top: 15%;
+            padding-bottom: 20%;
+            background-color: $darkviolet;
+            height: auto;
+            position: relative;
+            h1{
+                padding-left: 15%;
+                padding-right: 15%;
+                font-size: 37px;
+                font-weight: 400;
+                font-family: 'DM Serif Display', serif;
+                color: #ffffff;
+                text-align: center;
+                z-index: 1;
+                position: relative;
+                font-size: 40px;
+                line-height: 97%;
+            }
+            .top-pattern{
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+        }
+    }
+    .footer{
+        width: 100%;
+        height: 30vh;
+        background-color: $verylightgrey;
+        position: relative;
+        .pattern{
+            width: 100%;
+            position: absolute;
+            top: 0;
+        }
+        .img-footer{
+            top: 95px;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+        .img-social-container{
+            width: 100%;
+            position: absolute;
+            padding-top: 30px;
+            display: flex;
+            justify-content: center;
+            margin-top: 2%;
+            img{
+                padding-right: 2%;
+                padding-left: 2%;
             }
         }
     }
