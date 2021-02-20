@@ -1,0 +1,109 @@
+@media(min-width: 1000px){
+    .hamburger{
+        display: none;
+    }
+    .nav-background-mobile{display: none;}
+    .mobile-header{
+        width: 100%;
+        height: auto;
+    }
+    #myLinks{
+        display:none;
+    }
+    #mobile-img{
+        display: none;
+    }
+    .top-pattern{display: none;}
+    .bottom-pattern{display: none;}
+    a{text-decoration: none;}
+    
+
+    .logo{
+        margin-left: 12%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .top-menu-dekstop{
+        float: right;
+        margin-right: 11%;
+        margin-top: 30px;
+        width: 460px;
+        .plan{
+            border: 2px solid $verydarkviolet;
+            width: auto;
+            padding-right: 7%;
+            padding-left: 7%;
+            padding-top: 2%;
+            padding-bottom: 2%;
+            font-weight: 600;
+        }
+        a{
+            padding-right: 5%;
+            font-family: 'Karla', sans-serif;
+            color: $verydarkviolet;
+        }
+    }
+    .top-content{
+        padding-right: 12%;
+        padding-left: 12%;
+        background-color: $darkviolet;
+        height: 500px;
+        position: relative;
+        .line-top{
+            padding-top: 7%;
+            border-bottom: 2px solid $verylightgrey;
+            width: 10%;
+        }
+        h1{
+            padding-top: 5%;
+            font-size: 70px;
+            line-height: 85%;
+            color: #ffffff;
+        }
+        .text{
+            margin-top: 20px;
+            font-size: 16px;
+            width: 50%;
+            font-family: 'Karla', sans-serif;
+            font-weight: 100;
+            color: #ffffff;
+            line-height: 160%;
+        }
+        .button{
+            margin-top: 3%;
+            padding-bottom: 1%;
+            padding-top: 1%;
+            width: 15%;
+            border: 1px solid white;
+            display: flex;
+            justify-content: center;
+            color: $verylightgrey;
+        }
+        .pattern-right{
+            //display: inline-block;
+            position: absolute;
+            //height: auto;
+            //width: auto;
+            right: 0;
+            top: 0;
+            z-index: 1;
+        }
+        .pattern-left{
+            position: absolute;
+            left: 0;
+            bottom: -69%;
+        }
+        .intro-desktop{
+            position: absolute;
+            right: 11%;
+            top: 15%;
+            z-index: 0;
+        }
+    }
+    .hero{
+        display: inline-block;
+        position: absolute;
+        height: auto;
+        width: auto;
+    }
+}

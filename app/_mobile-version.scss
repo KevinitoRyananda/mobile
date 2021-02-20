@@ -1,6 +1,6 @@
 @media(max-width: 480px){
     
-    body{height: 400vh;}
+    body{height: 500vh;}
     .button{ // View Plans Button.
         color: $verylightgrey;
         margin-right: 80px;
@@ -188,7 +188,7 @@
         }
         .img-footer{
             top: 95px;
-            position: absolute;
+            position: relative;
             display: flex;
             justify-content: center;
             width: 100%;
@@ -205,10 +205,34 @@
                 padding-left: 2%;
             }
         }
+        .web-footer{
+            //position: relative;
+            margin-top: 200px;
+            .judul{
+                font-weight: 100;
+                margin-top: 10%;
+                margin-bottom: 10%;
+                color: $darkgrayishviolet;
+
+            }
+            .text1-footer{
+                font-family: 'Karla', sans-serif;
+                font-weight: 600;
+                color: $verydarkviolet;
+            }
+        }
     }
     .working{
         text-align: center;
         font-family: 'Karla', sans-serif;
         color: $verydarkviolet;
+        display: none;
     }
+    .flexx{
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .attribution{display: none;}
 }
