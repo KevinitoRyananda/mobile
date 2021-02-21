@@ -1,4 +1,6 @@
 @media(max-width: 480px){
+    .footer-pattern-desktop{display: none;}
+    .bottom-pattern-desktop{display: none;}
     .top-menu-desktop{display: none;}
     .line-top{
         padding-top: 7%;
@@ -33,7 +35,7 @@
 
 
 
-    body{height: 500vh;}
+    body{height: auto;}
     .button{ // View Plans Button.
         color: $verylightgrey;
         margin-right: 80px;
@@ -63,7 +65,7 @@
         .hamburger{
             position: absolute;
             right: 40px;
-            top: 22px;
+            top: 25px;
         }
         #myLinks{
             overflow: hidden;
@@ -110,7 +112,7 @@
         .top-content{
             background-color: $darkviolet;
             margin-top: -4px;
-            height: 95vh;
+            height: 105vh;
             position: relative;
             z-index: 0;
             line-height: 185%;
@@ -183,7 +185,8 @@
             }
         }
         .bottom-content{
-            width: 100%;
+            margin: 0px 20px;
+            width: auto;
             padding-top: 15%;
             padding-bottom: 20%;
             background-color: $darkviolet;
@@ -212,8 +215,9 @@
     .footer{
         width: 100%;
         height: 30vh;
-        background-color: $verylightgrey;
+        background-color: #fafafa;
         position: relative;
+        margin-top: 127px;
         .pattern{
             width: 100%;
             position: absolute;
@@ -267,5 +271,10 @@
         margin-top: 5%;
         margin-bottom: 5%;
     }
-    .attribution{display: none;}
+    .attribution{
+        margin-bottom: 60px;
+        font-size: 11px;
+        text-align: center;
+        margin-top: 940px;
+    }
 }

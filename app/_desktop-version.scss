@@ -1,4 +1,9 @@
 @media(min-width: 1000px){
+    .footer{
+        .pattern{
+            display: none;
+        }
+    }
     #myDIV{
         overflow: auto  ;
         height: 250px;
@@ -22,7 +27,9 @@
     .bottom-pattern{display: none;}
     a{text-decoration: none;}
     
-
+    body{
+        height: 380vh;
+    }
     .button{
         margin-top: 5%;
         padding-bottom: 1%;
@@ -123,7 +130,7 @@
         .icon1{
             text-align: justify;
             margin-right: 36px;
-            margin-top: 40px;
+            margin-top: 80px;
             float: left;
             width: 30%;
             .text-head{
@@ -137,31 +144,117 @@
             padding-left: 12%;
             padding-right: 10%;
             font-family: 'karla', 'sans-serif';
+            .icon1{
+                .text-icon{
+                    line-height: 25px;
+                    color: $darkgrayishviolet;
+                }
+            }
         }
         
     }
     .bottom-content{
         font-size: 20px;
-        margin-top: 5%;
+        margin-top: 13%;
         width: auto;
         margin-right: 12%;
         margin-left: 12%;
-        background-color: $darkviolet;
+        background-color: #2d2640;
         color: #ffffff;
         position: relative;
         .how-we-work{
             position: absolute;
+            top: 45px;
+            right: 70px;
+            width: auto;
+            padding: 12px 28px;
+            z-index: 1;
+            font-size: 18px;
+            font-family: 'karla', 'sans-serif';
         }
         h1{
-            line-height: 90%;
+            height: auto;
+            line-height: 95%;
             font-size: 52px;
             width: 45%;
-            margin-left: 5%;
+            margin-left: 8%;
             margin-right: 5%;
-            padding-top: 3%;
-            padding-bottom: 3%;
+            padding-top: 6%;
+            padding-bottom: 8%;
             font-family: 'DM Serif Display', serif;
             font-weight: 100;
+            position: relative;
+        }
+        .bottom-pattern-desktop{
+            right: 0;
+            z-index: 0;
+            top: 0;
+            position: absolute;
         }
     }
+    .footer{
+        margin-right: 12%;
+        margin-top: 120px;
+        width: auto;
+        margin-left: 12%;
+        position: relative;
+        .footer-pattern-desktop{
+            position: absolute;
+            left: -175px;
+        }
+        .img-footer{
+            padding-top: 65px;
+            position: relative;
+            z-index: 1;
+            .logo-footer{
+                width: 11%;
+            }
+            img{
+                margin-left: 5px;
+                //width: 11%;
+            }
+            .line-footer{
+                bottom: -37px;
+                border-bottom: 1px solid $darkgrayishviolet;
+                position: absolute;
+                width: 100%;
+            }
+        }
+        .img-social-container{
+            width: auto;
+            float: right;
+            
+        }
+        .web-footer{
+            margin-top: 8%;
+            position: relative;
+            font-family: 'karla', 'sans-serif';
+            color: $verydarkviolet;
+            .container{
+                width: 100%;
+                .text1-footer{
+                    padding-left: 0px;
+                    margin-right: 0px;
+                    width: auto;
+                    padding-right: 172px;
+                    float: left;
+                    .judul{
+                        padding-bottom: 35px;
+                        color: $darkgrayishviolet;
+                    }
+                    p{
+                        padding-bottom: 16px;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+    .attribution{
+        position: relative;
+        font-size: 11px;
+        text-align: center;
+        margin-top: 360px;
+    }
+    .working{display: none;}
 }

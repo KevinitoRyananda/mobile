@@ -15,6 +15,12 @@
 }
 
 @media (max-width: 480px) {
+  .footer-pattern-desktop {
+    display: none;
+  }
+  .bottom-pattern-desktop {
+    display: none;
+  }
   .top-menu-desktop {
     display: none;
   }
@@ -45,7 +51,7 @@
     display: none;
   }
   body {
-    height: 500vh;
+    height: auto;
   }
   .button {
     color: #fafafa;
@@ -78,7 +84,7 @@
   .mobile-header .hamburger {
     position: absolute;
     right: 40px;
-    top: 22px;
+    top: 25px;
   }
   .mobile-header #myLinks {
     overflow: hidden;
@@ -133,7 +139,7 @@
   .mobile-content .top-content {
     background-color: #2d2640;
     margin-top: -4px;
-    height: 95vh;
+    height: 105vh;
     position: relative;
     z-index: 0;
     line-height: 185%;
@@ -202,7 +208,8 @@
     line-height: 175%;
   }
   .mobile-content .bottom-content {
-    width: 100%;
+    margin: 0px 20px;
+    width: auto;
     padding-top: 15%;
     padding-bottom: 20%;
     background-color: #2d2640;
@@ -232,6 +239,7 @@
     height: 30vh;
     background-color: #fafafa;
     position: relative;
+    margin-top: 127px;
   }
   .footer .pattern {
     width: 100%;
@@ -296,11 +304,17 @@
     margin-bottom: 5%;
   }
   .attribution {
-    display: none;
+    margin-bottom: 60px;
+    font-size: 11px;
+    text-align: center;
+    margin-top: 940px;
   }
 }
 
 @media (min-width: 1000px) {
+  .footer .pattern {
+    display: none;
+  }
   #myDIV {
     overflow: auto;
     height: 250px;
@@ -329,6 +343,9 @@
   }
   a {
     text-decoration: none;
+  }
+  body {
+    height: 380vh;
   }
   .button {
     margin-top: 5%;
@@ -428,7 +445,7 @@
   .mid-content .icon1 {
     text-align: justify;
     margin-right: 36px;
-    margin-top: 40px;
+    margin-top: 80px;
     float: left;
     width: 30%;
   }
@@ -443,9 +460,13 @@
     padding-right: 10%;
     font-family: 'karla', 'sans-serif';
   }
+  .mid-content .icon-container-mobile .icon1 .text-icon {
+    line-height: 25px;
+    color: #837d87;
+  }
   .bottom-content {
     font-size: 20px;
-    margin-top: 5%;
+    margin-top: 13%;
     width: auto;
     margin-right: 12%;
     margin-left: 12%;
@@ -455,17 +476,97 @@
   }
   .bottom-content .how-we-work {
     position: absolute;
+    top: 45px;
+    right: 70px;
+    width: auto;
+    padding: 12px 28px;
+    z-index: 1;
+    font-size: 18px;
+    font-family: 'karla', 'sans-serif';
   }
   .bottom-content h1 {
-    line-height: 90%;
+    height: auto;
+    line-height: 95%;
     font-size: 52px;
     width: 45%;
-    margin-left: 5%;
+    margin-left: 8%;
     margin-right: 5%;
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding-top: 6%;
+    padding-bottom: 8%;
     font-family: 'DM Serif Display', serif;
     font-weight: 100;
+    position: relative;
+  }
+  .bottom-content .bottom-pattern-desktop {
+    right: 0;
+    z-index: 0;
+    top: 0;
+    position: absolute;
+  }
+  .footer {
+    margin-right: 12%;
+    margin-top: 120px;
+    width: auto;
+    margin-left: 12%;
+    position: relative;
+  }
+  .footer .footer-pattern-desktop {
+    position: absolute;
+    left: -175px;
+  }
+  .footer .img-footer {
+    padding-top: 65px;
+    position: relative;
+    z-index: 1;
+  }
+  .footer .img-footer .logo-footer {
+    width: 11%;
+  }
+  .footer .img-footer img {
+    margin-left: 5px;
+  }
+  .footer .img-footer .line-footer {
+    bottom: -37px;
+    border-bottom: 1px solid #837d87;
+    position: absolute;
+    width: 100%;
+  }
+  .footer .img-social-container {
+    width: auto;
+    float: right;
+  }
+  .footer .web-footer {
+    margin-top: 8%;
+    position: relative;
+    font-family: 'karla', 'sans-serif';
+    color: #2b272f;
+  }
+  .footer .web-footer .container {
+    width: 100%;
+  }
+  .footer .web-footer .container .text1-footer {
+    padding-left: 0px;
+    margin-right: 0px;
+    width: auto;
+    padding-right: 172px;
+    float: left;
+  }
+  .footer .web-footer .container .text1-footer .judul {
+    padding-bottom: 35px;
+    color: #837d87;
+  }
+  .footer .web-footer .container .text1-footer p {
+    padding-bottom: 16px;
+    font-weight: 600;
+  }
+  .attribution {
+    position: relative;
+    font-size: 11px;
+    text-align: center;
+    margin-top: 360px;
+  }
+  .working {
+    display: none;
   }
 }
 /*# sourceMappingURL=style.css.map */
