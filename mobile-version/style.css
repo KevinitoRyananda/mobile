@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@media(min-width : 480px){
+    .header{
+        width: auto;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        margin-left: 40px;
+    }
+    .logo{
+        width: 150px;
+    }
+    .selection{display: none;}
+    .hamburger{
+        top: 35px;
+        position: absolute;
+        right: 0px;
+        height: 40px;
+    }
+    .intro{
+        display: none;
+    }
+    .intro-mobile{
+        width: 110%;
+        margin-top: -1px;
+    }
+    .content{
+        background-color: hsl(256, 26%, 20%);
+        text-align: center;
+        width: 110%;
+    }
+    .judulintro{
+        font-family: 'DM Serif Display', serif;
+        font-size: 50px;
+        color: white;
+    }
+}
