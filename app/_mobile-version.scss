@@ -1,5 +1,38 @@
 @media(max-width: 480px){
-    
+    .top-menu-desktop{display: none;}
+    .line-top{
+        padding-top: 7%;
+        border-bottom: 2px solid $verylightgrey;
+        width: 10%;
+        display: none;
+    }
+    .pattern-right{
+        //display: inline-block;
+        position: absolute;
+        //height: auto;
+        //width: auto;
+        right: 0;
+        top: 0;
+        z-index: 1;
+        display: none;
+    }
+    .pattern-left{
+        position: absolute;
+        left: 0;
+        bottom: -69%;
+        display: none;
+    }
+    .intro-desktop{
+        position: absolute;
+        right: 11%;
+        top: 15%;
+        z-index: 0;
+        display: none;
+    }
+
+
+
+
     body{height: 500vh;}
     .button{ // View Plans Button.
         color: $verylightgrey;
@@ -77,7 +110,7 @@
         .top-content{
             background-color: $darkviolet;
             margin-top: -4px;
-            height: 90vh;
+            height: 95vh;
             position: relative;
             z-index: 0;
             line-height: 185%;
