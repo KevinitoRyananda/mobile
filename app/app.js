@@ -1,4 +1,4 @@
-//alert('Maaf kalau masih kurang rapih, masih belajar hehe :)');
+alert('Masih belajar hehe :)');
 
 function myFunction() {
   var x = document.getElementById("myLinks");
