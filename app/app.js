@@ -1,4 +1,4 @@
-alert('Masih belajar hehe :)');
+alert('works on 1440 and mobile');
 
 function myFunction() {
   var x = document.getElementById("myLinks");
