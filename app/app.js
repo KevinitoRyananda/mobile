@@ -1,4 +1,4 @@
-//alert('works on 1440 and mobile');
+alert('works on 1440p and mobile');
 
 function scroll(){
   var x = document.getElementById("myLinks");
