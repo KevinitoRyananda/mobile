@@ -236,13 +236,19 @@
         .img-social-container{
             width: 100%;
             position: absolute;
-            padding-top: 30px;
+            padding-top: 40px;
             display: flex;
             justify-content: center;
             margin-top: 2%;
             img{
                 padding-right: 2%;
                 padding-left: 2%;
+            }
+            .bottom-line{
+                border-bottom: 1px solid $darkgrayishviolet;
+                width: 85%;
+                position: absolute;
+                top: 92px;
             }
         }
         .web-footer{
