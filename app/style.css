@@ -149,7 +149,7 @@ html {
   .mobile-content .top-content {
     background-color: #2d2640;
     margin-top: -4px;
-    height: 105vh;
+    height: 80vh;
     position: relative;
     z-index: 0;
     line-height: 185%;
@@ -246,7 +246,7 @@ html {
   }
   .footer {
     width: 100%;
-    height: 195vh;
+    height: 155vh;
     background-color: #fafafa;
     position: relative;
     margin-top: 127px;
